@@ -1,4 +1,4 @@
-# CrackingTheCodingInterviewWithSwift
+# Cracking The Coding Interview With Swift (2021)
 In the repository, you cand find solutions of algorithms of Cracking The Coding Interview(6th Edition) in Swift
 
 
