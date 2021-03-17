@@ -8,6 +8,7 @@ func quickSortLastE(_ arr: inout [Int]) -> [Int] {
 func quickSortHelper(_ arr: inout [Int], _ start: Int, _ end: Int) -> [Int] {
     if start < end {
         let pivot = partition(&arr, start, end)
+        print("This state of arr: \(arr)")
         quickSortHelper(&arr, start, pivot-1)
         quickSortHelper(&arr, pivot+1, end)
     }
@@ -23,11 +24,12 @@ func partition(_ arr: inout[Int], _ start:Int, _ end: Int) -> Int {
     let pivot = arr[end]
     print("default arr : \(arr) and pivot is \(pivot)")
     for j in start..<end {
-        //if the current number is less than the pivot, we swap it with number at i, because the number at i is larger than the pivot. If it wasn't, it wouldn't have been skip over. This way, we move all numbers smaller than pivot to left side of the array.
+        //if the current number is less than the pivot, we swap it with number at i, because the number at i is larger than the pivot. If it wasn't, it would have been skip over. This way, we move all numbers smaller than pivot to left side of the array.
         if arr[j] < pivot {
+            print("i: \(i) and j:\(j)")
             arr.swapAt(i, j)
             i += 1
-            print("\(arr) \(j)")
+            //print("\(arr) \(j)")
         }
     }
     //move the pivot point to its proper place
@@ -36,3 +38,4 @@ func partition(_ arr: inout[Int], _ start:Int, _ end: Int) -> Int {
 }
 
 print(quickSortLastE(&nums))
+var nums2 = [10,80,30,90,40,50,70]
