@@ -55,5 +55,15 @@ var ponds = [
 getPondSizes(&ponds)
 
 /*
+ Both implementations are O(WH), where W is the width of the matrix and H is the height.
+ 
+ Note: Many people say "O(N)" or "O(N2 )'; as though N has some inherent meaning. It doesn't.
+ Suppose this were a square matrix. You could describe the runtime as 0( N) or 0( N ). Both are correct, depending on what you mean by N. The runtime is O(N2 ), where N is the length of one side. Or, if N is the number of cells, it is 0(N). Be careful by what you mean by N. In fact, it might be safer to just not use N at all when there's any ambiguity as to what it could mean.
+ 
+ Some people will miscompute the runtime to be 0(N4), reasoning that the computeSize method could take as long as O( N2 ) time and you might call it as much as 0(N2 ) times (and apparently assuming an NxN matrix, too). While those are both basically correct statements, you can't just multiply them together. That's because as a single call to computeSize gets more expensive, the number of times it is called goes down.
+ 
+ For example, suppose the very first call to computeSize goes through the entire matrix. That might take O(N2 ) time, but then we never call computeSize again.
+ */
+/*
  Another way to compute this is to think about how many times each cell is "touched" by either call. Each cell will be touched once by the computePondSizes function. Additionally, a cell might be touched once by each of its adjacent cells. This is still a constant number of touches per cell. Therefore, the overall runtime is O(N2) on an NxN matrix or, more generally, O(WH).
  */

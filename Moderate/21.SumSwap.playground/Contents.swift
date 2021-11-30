@@ -4,7 +4,7 @@ import UIKit
  Given two arrays of integers, find a pair of values (one value from each array) that you
   can swap to give the two arrays the same sum.
  EXAMPLE
- Input:{4, 1, 2, 1, 1, 2}and{3, 6, 3, 3}
+ Input:{4, 1, 2, 1, 1, 2} and {3, 6, 3, 3}
  Output: {1, 3}
  */
 
@@ -27,7 +27,7 @@ func sumSwap(_ a:[Int], _ b:[Int]) -> (Int,Int)? {
 }
 
 /*
- This algorithm takes O(A + B)time but requires the arrays to be sorted.If the arrays aren't sorted, we can still apply this algorithm but we'd have to sort the arrays first.The overall run time would be O(A log A + B log B).
+ This algorithm takes O(A + B)time but requires the arrays to be sorted.If the arrays aren't sorted, we can still apply this algorithm but we'd have to sort the arrays first. The overall run time would be O(A log A + B log B).
  */
 func findDiffWithSorting(_ diff:Int, _ a:[Int], _ b:[Int]) -> (Int,Int)? {
     var i = 0
