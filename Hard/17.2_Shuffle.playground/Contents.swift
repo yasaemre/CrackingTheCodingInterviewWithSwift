@@ -20,6 +20,7 @@ func shuffleArrayRec(_ cards:[Int], _ i:Int) -> [Int] {
     
     return cards
 }
+//The iterative approach is usually how we see this algorithm written.
 func shuffleIteratively(_ cards: inout [Int]){
     for i in 0..<cards.count {
         let k = rand(0, i)
