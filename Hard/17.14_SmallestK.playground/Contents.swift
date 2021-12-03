@@ -21,6 +21,6 @@ func smallestK(_ arr:[Int], _ k:Int) -> [Int] {
     return smallest
 }
 
-//O(nlogn)
+//Time complexity: O(nlogn)
 var arr = [2,4,1,55,5,9,6,11,345,34,44,343]
 smallestK(arr, 4)

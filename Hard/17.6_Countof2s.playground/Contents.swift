@@ -26,6 +26,9 @@ func numOf2s(_ n:Int) -> Int {
     }
     return count
 }
+/*
+ The only interesting part is that it's probably cleaner to seperate out numberOf2s into a seperate method. This shows an eye for code cleanliness.
+ */
 
 
 numOf2sInRange(44)
