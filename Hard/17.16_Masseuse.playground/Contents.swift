@@ -60,6 +60,10 @@ maxMinutesMemo(massages)
 
 
 //Iterative with Optimal Time and Space
+/*
+ In reviewing the last solution,we can recogpize that we only use the values in the memo table for a short amount of time. Once we are several elements past an index, we never use that element's index again.
+ In fact, any given index i,  we only need to know the best value from i+1 and i+2. Therefore, we can get rid of the memo table and just use two integers.
+ */
 func maxMinIterative(_ massages:[Int]) -> Int {
     var oneAway = 0
     var twoAway = 0
