@@ -2,6 +2,10 @@ import UIKit
 
 var arr = [38,27,43,3,9,82,10]
 
+/*
+ Invented in 1945 by John von Neumann, merge sort is an efficient sorting algorithm. The idea behind merge sort is devide and
+ conquer. To break up a big problem into small problems. A helpful mantra to remember  merge sort by is split first and merge after.
+ */
 func mergeSort(_ arr: [Int]) -> [Int] {
     if arr.count <= 1 {
         return arr
