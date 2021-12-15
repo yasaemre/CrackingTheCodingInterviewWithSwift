@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 var nums = [88, 410, 1772, 20]
 /*
@@ -46,3 +47,30 @@ radixSort(&nums)
  Unlike comparison sorting algorithms, which cannot perform better than O(n log(n)) in the average case, radix sort has a runtime of 0( kn), where n is the number of elements and k is the number of passes of the sorting algorithm.
  */
 //Source: https://github.com/raywenderlich/swift-algorithm-club/blob/master/Radix%20Sort/radixSort.swift
+
+extension Array where Element == Int {
+    public mutating func radixSort() {
+        let base = 10
+        var done = false
+        var digits = 1
+        while !done {
+            var buckets: [[Int]] = .init(repeating: [], count: base)
+            forEach { number in
+                let remainingPart = number / digits
+                let digit = remainingPart % base
+                buckets[digit].append(number)
+                digits *= base
+                self = buckets.flatMap { $0 }
+                if remainingPart > 0 {
+                  done = false
+                }
+            }
+        }
+    }
+}
+
+  var array = [88, 410, 1772, 20]
+  print("Original array: \(array)")
+  array.radixSort()
+  print("Radix sorted: \(array)")
+
