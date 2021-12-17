@@ -1,5 +1,6 @@
 import Foundation
 import UIKit
+import Darwin
 
 var nums = [88, 410, 1772, 20]
 /*
@@ -8,20 +9,21 @@ var nums = [88, 410, 1772, 20]
 
 // NOTE: This implementation does not handle negative numbers
 func radixSort(_ array: inout [Int] ) {
-  let radix = 10  //Here we define our radix to be 10
+  let base = 10  //Here we define our radix to be 10
   var done = false
   var index: Int
   var digit = 1  //Which digit are we on?
   while !done {  //While our  sorting is not completed
     done = true  //Assume it is done for now
-    var buckets: [[Int]] = []  //Our sorting subroutine is bucket sort, so let us predefine our buckets
-    for _ in 1...radix {
-      buckets.append([])
-    }
+//    var buckets: [[Int]] = []  //Our sorting subroutine is bucket sort, so let us predefine our buckets
+//    for _ in 1...radix {
+//      buckets.append([])
+//    }
+      var buckets:[[Int]] = .init(repeating: [], count: base)
 
     for number in array {
       index = number / digit  //Which bucket will we access?
-      buckets[index % radix].append(number)
+      buckets[index % base].append(number)
       if done && index > 0 {  //If we arent done, continue to finish, otherwise we are done
         done = false
       }
@@ -29,7 +31,7 @@ func radixSort(_ array: inout [Int] ) {
 
     var i = 0
 
-    for j in 0..<radix {
+    for j in 0..<base {
       let bucket = buckets[j]
       for number in bucket {
         array[i] = number
@@ -37,7 +39,7 @@ func radixSort(_ array: inout [Int] ) {
       }
     }
 
-    digit *= radix  //Move to the next digit
+    digit *= base  //Move to the next digit
   }
 }
 
@@ -71,6 +73,6 @@ extension Array where Element == Int {
 
   var array = [88, 410, 1772, 20]
   print("Original array: \(array)")
-  array.radixSort()
-  print("Radix sorted: \(array)")
+//  array.radixSort()
+//  print("Radix sorted: \(array)")
 
