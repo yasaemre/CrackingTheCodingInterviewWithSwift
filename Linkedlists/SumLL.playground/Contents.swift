@@ -1,7 +1,5 @@
 import UIKit
 
-var str = "Hello, playground"
-
 class Node {
     var next: Node?
     var data: Int
