@@ -1,6 +1,7 @@
 import UIKit
 
 var arr = [38,27,43,3,9,82,10]
+var arr2 = [1,5,2,6,3]
 
 /*
  Invented in 1945 by John von Neumann, merge sort is an efficient sorting algorithm. The idea behind merge sort is devide and
@@ -13,21 +14,24 @@ func mergeSort(_ arr: [Int]) -> [Int] {
     
     let midIdx = arr.count / 2
     let left = mergeSort(Array(arr[0..<midIdx]))
-    print(left)
     let right = mergeSort(Array(arr[midIdx..<arr.count]))
     return merge(left,right)
 }
 
 func merge(_ left:[Int], _ right: [Int]) -> [Int] {
     var output:[Int] = []
+    print("left arr: \(left)")
+    print("right arr: \(right)")
     var lIdx = 0
     var rIdx = 0
     while lIdx < left.count, rIdx < right.count {
         if left[lIdx] < right[rIdx] {
             output.append(left[lIdx])
+            print("left element: \(left[lIdx])")
             lIdx += 1
         } else {
             output.append(right[rIdx])
+            print("right element: \(left[lIdx])")
             rIdx += 1
         }
     }
@@ -35,4 +39,5 @@ func merge(_ left:[Int], _ right: [Int]) -> [Int] {
     return output
 }
 
-mergeSort(arr)
+//mergeSort(arr)
+mergeSort(arr2)
