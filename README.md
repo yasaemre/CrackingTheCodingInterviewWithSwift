@@ -18,3 +18,11 @@ Some solution has been refered from https://github.com/careercup/CtCI-6th-Editio
  1.7 Rotate Matrix <br>
  1.8 Zero Matrix <br>
  1.9 String Rotation
+# Linked Lists
+ 2.1 Remove Dups <br>
+ 2.2 Return Kth to Last <br>
+ 2.3 Delete middle node <br>
+ 2.5 Sum Lists <br>
+ 2.6 Palindrom <br>
+ 2.7 Intersection <br>
+ 2.8 Loop Detection <br>
