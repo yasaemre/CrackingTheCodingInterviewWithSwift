@@ -26,3 +26,10 @@ Some solution has been refered from https://github.com/careercup/CtCI-6th-Editio
  2.6 Palindrom <br>
  2.7 Intersection <br>
  2.8 Loop Detection <br>
+# Array and Strings
+ 3.1 Three in One <br>
+ 3.2 Stack Min <br>
+ 3.3 Stack of Plates <br>
+ 3.4 Queue via Stacks <br>
+ 3.5 Sort Stack<br>
+ 3.6 Animal Shelter <br>
