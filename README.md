@@ -43,3 +43,19 @@ Some solution has been refered from https://github.com/careercup/CtCI-6th-Editio
  5.6 Conversion <br>
  5.7 Pairwise Swap <br>
  5.8 Draw Line <br>
+ 
+ # Recursion and Dynamic Programming
+ 8.1 Triple Step <br>
+ 8.2 Robot in a Grid <br>
+ 8.3 Magic Index: <br>
+ 8.4 Power Set <br>
+ 8.5 Recursive Multiply<br>
+ 8.6 Towers of Hanoi: <br>
+ 8.7 Permutations without Dups <br>
+ 8.8 Permutations with Dups <br>
+ 8.9 Parens <br>
+ 8.10 Paint Fill <br>
+ 8.11 Coins <br>
+ 8.12 Eight Queens <br>
+ 8.13 Stack of Boxes <br>
+ 8.14 Boolean Evaluation <br>
