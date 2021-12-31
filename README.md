@@ -59,3 +59,13 @@ Some solution has been refered from https://github.com/careercup/CtCI-6th-Editio
  8.12 Eight Queens <br>
  8.13 Stack of Boxes <br>
  8.14 Boolean Evaluation <br>
+
+# Sorting and Searching
+10.1.SortedMerge.playground
+10.3_SearchInRotatedArray.playground
+10.4_SortedSearchNoSize.playground
+10.5_SparseSearch.playground
+10.8_FindDuplicates.playground
+10.9_SortedMatrixSearch.playground
+10.10_RankFromSystem.playground
+10.11_PeaksAndValleys.playground
