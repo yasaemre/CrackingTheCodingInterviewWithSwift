@@ -61,11 +61,11 @@ Some solution has been refered from https://github.com/careercup/CtCI-6th-Editio
  8.14 Boolean Evaluation <br>
 
 # Sorting and Searching
-10.1.SortedMerge.playground
-10.3_SearchInRotatedArray.playground
-10.4_SortedSearchNoSize.playground
-10.5_SparseSearch.playground
-10.8_FindDuplicates.playground
-10.9_SortedMatrixSearch.playground
-10.10_RankFromSystem.playground
-10.11_PeaksAndValleys.playground
+10.1.SortedMerge.playground<br>
+10.3_SearchInRotatedArray.playground<br>
+10.4_SortedSearchNoSize.playground<br>
+10.5_SparseSearch.playground<br>
+10.8_FindDuplicates.playground<br>
+10.9_SortedMatrixSearch.playground<br>
+10.10_RankFromSystem.playground<br>
+10.11_PeaksAndValleys.playground<br>
