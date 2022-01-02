@@ -70,7 +70,6 @@ Some solution has been refered from https://github.com/careercup/CtCI-6th-Editio
 10.10_RankFromSystem.playground<br>
 10.11_PeaksAndValleys.playground<br>
 BubbleSort<br>
-Fibonacci<br>
 InsertionSort<br>
 MergeSort<br>
 QuickSort<br>
