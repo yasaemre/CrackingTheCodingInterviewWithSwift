@@ -1,7 +1,8 @@
 # Cracking The Coding Interview With Swift (2021)
-In the repository, you cand find my approaches for algorithms of Cracking The Coding Interview(6th Edition) in Swift.
+In the repository, you can find my approaches for questions of Cracking The Coding Interview(6th Edition) in Swift.
 
 I know, admittedly, it is more challenging to find optimal solutions for some algorithm questions in Swift than other languages such Java, C+, or Phyton. Therefore, I wanted to bring my swift way solutions of Cracking The Coding Interview(6th edition) Book.
+![1435811621](https://user-images.githubusercontent.com/31274880/147947715-aa501e31-a5bb-4e2d-8c79-fe2a841cf821.png)
 
 
 Some solution has been refered from https://github.com/careercup/CtCI-6th-Edition-Swift and https://github.com/ikhsan/ctci-swift
