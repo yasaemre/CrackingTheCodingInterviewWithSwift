@@ -85,3 +85,6 @@ TimSort<br>
  16.4 ntersection <br>
  16.5 One away <br>
  16.6 String Compression <br>
+ 16.7 Number Max <br>
+ 16.8 English Int <br>
+
