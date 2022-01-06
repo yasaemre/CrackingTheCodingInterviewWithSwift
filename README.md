@@ -5,7 +5,7 @@ I know, admittedly, it is more challenging to find optimal solutions for some al
 ![1435811621](https://user-images.githubusercontent.com/31274880/147947715-aa501e31-a5bb-4e2d-8c79-fe2a841cf821.png)
 
 
-Some solution has been refered from https://github.com/careercup/CtCI-6th-Edition-Swift and https://github.com/ikhsan/ctci-swift
+Some solution has been refered from https://github.com/careercup/CtCI-6th-Edition-Swift and https://github.com/ikhsan/ctci-swift . I would like to thank both of them genuinely!
 
 # Content
 
