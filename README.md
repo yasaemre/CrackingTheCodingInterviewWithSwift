@@ -87,4 +87,6 @@ TimSort<br>
  16.6 String Compression <br>
  16.7 Number Max <br>
  16.8 English Int <br>
-
+ 16.9 Operations Int <br>
+ 16.10 Living People <br>
+ 16.11 Diving Board <br>
