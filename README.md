@@ -82,8 +82,6 @@ TimSort<br>
  16.1 Number Swapper <br>
  16.2 Word Frequencies <br>
  16.3 Urlfy <br>
- 16.4 ntersection <br>
- 16.5 One away <br>
  16.6 String Compression <br>
  16.7 Number Max <br>
  16.8 English Int <br>
