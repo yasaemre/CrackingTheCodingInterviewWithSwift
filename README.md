@@ -88,3 +88,6 @@ TimSort<br>
  16.9 Operations Int <br>
  16.10 Living People <br>
  16.11 Diving Board <br>
+ 16.12 XMLEncoding <br>
+ 16.13 Bisect Squares <br>
+ 16.14 Best Line <br>
