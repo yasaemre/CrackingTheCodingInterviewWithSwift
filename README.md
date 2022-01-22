@@ -93,3 +93,5 @@ TimSort<br>
  16.14 Best Line <br>
  16.15 Master Mind <br>
  16.16 Sub Sort <br>
+ 16.17 Contiguous Sequence <br>
+ 16.18 Pattern Matching: <br>
