@@ -95,3 +95,5 @@ TimSort<br>
  16.16 Sub Sort <br>
  16.17 Contiguous Sequence <br>
  16.18 Pattern Matching: <br>
+ 16.19 Pond Sizes <br>
+ 16.20 T9 <br>
