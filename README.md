@@ -97,3 +97,5 @@ TimSort<br>
  16.18 Pattern Matching: <br>
  16.19 Pond Sizes <br>
  16.20 T9 <br>
+ 16.21 Sum Swap <br>
+ 16.22 Langton's Ant <br>
