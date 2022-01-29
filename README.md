@@ -99,3 +99,5 @@ TimSort<br>
  16.20 T9 <br>
  16.21 Sum Swap <br>
  16.22 Langton's Ant <br>
+ 16.23 Rand7 from Rands <br>
+ 16.24 Pairs with Sum <br>
