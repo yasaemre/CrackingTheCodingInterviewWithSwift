@@ -89,8 +89,6 @@ TimSort<br>
  16.10 Living People <br>
  16.11 Diving Board <br>
  16.12 XMLEncoding <br>
- 16.13 Bisect Squares <br>
- 16.14 Best Line <br>
  16.15 Master Mind <br>
  16.16 Sub Sort <br>
  16.17 Contiguous Sequence <br>
