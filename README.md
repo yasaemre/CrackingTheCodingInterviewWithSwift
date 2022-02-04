@@ -99,4 +99,3 @@ TimSort<br>
  16.22 Langton's Ant <br>
  16.23 Rand7 from Rands <br>
  16.25 LRU Cache <br>
- 16.26 Calculator <br>
