@@ -99,3 +99,8 @@ TimSort<br>
  16.22 Langton's Ant <br>
  16.23 Rand7 from Rands <br>
  16.25 LRU Cache <br>
+
+# Hard
+ 17.1 Add Without Plus <br>
+ 17.2 Shuffle <br>
+ 17.3 Random Set <br>
