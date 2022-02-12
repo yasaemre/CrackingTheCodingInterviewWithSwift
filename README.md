@@ -107,3 +107,5 @@ TimSort<br>
  17.4 Missing Number <br>
  17.5 Letters and Number <br>
  17.6 Count of 2s <br>
+ 17.7 Baby Names <br>
+ 17.8 Circus Tower <br>
