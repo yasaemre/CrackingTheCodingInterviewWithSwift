@@ -109,3 +109,5 @@ TimSort<br>
  17.6 Count of 2s <br>
  17.7 Baby Names <br>
  17.8 Circus Tower <br>
+ 17.9 Kth Multiple <br>
+ 17.10 Majority Element <br>
