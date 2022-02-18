@@ -111,3 +111,5 @@ TimSort<br>
  17.8 Circus Tower <br>
  17.9 Kth Multiple <br>
  17.10 Majority Element <br>
+ 17.11 WordDistance <br>
+ 17.12 BiNode <br>
