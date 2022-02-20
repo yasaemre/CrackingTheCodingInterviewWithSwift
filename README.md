@@ -113,3 +113,5 @@ TimSort<br>
  17.10 Majority Element <br>
  17.11 WordDistance <br>
  17.12 BiNode <br>
+ 17.13 Re-Space <br>
+ 17.14 Smallest K <br>
