@@ -117,3 +117,5 @@ TimSort<br>
  17.14 Smallest K <br>
  17.15 Longest Word <br>
  17.16 The Masseuse <br>
+ 17.17 Multi Search <br>
+ 17.18 Shortest Supersequence <br>
