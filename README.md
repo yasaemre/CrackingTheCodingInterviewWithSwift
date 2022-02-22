@@ -115,3 +115,5 @@ TimSort<br>
  17.12 BiNode <br>
  17.13 Re-Space <br>
  17.14 Smallest K <br>
+ 17.15 Longest Word <br>
+ 17.16 The Masseuse <br>
