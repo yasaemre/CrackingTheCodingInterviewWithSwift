@@ -120,4 +120,6 @@ TimSort<br>
  17.17 Multi Search <br>
  17.18 Shortest Supersequence <br>
  17.19 Missing Two <br>
- 17.20 Volume of Histogram <br>
+ 17.20 Continuous Median <br>
+ 17.21 Volume of Histogram <br>
+ 17.22 Word Transformer <br>
