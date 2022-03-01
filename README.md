@@ -123,3 +123,5 @@ TimSort<br>
  17.20 Continuous Median <br>
  17.21 Volume of Histogram <br>
  17.22 Word Transformer <br>
+ 17.23 Max Black Square <br>
+ 17.24 Max Submatrix <br>
