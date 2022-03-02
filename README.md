@@ -125,3 +125,4 @@ TimSort<br>
  17.22 Word Transformer <br>
  17.23 Max Black Square <br>
  17.24 Max Submatrix <br>
+ 17.25 Word Rectangle <br>
