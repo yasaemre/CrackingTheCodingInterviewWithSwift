@@ -126,3 +126,4 @@ TimSort<br>
  17.23 Max Black Square <br>
  17.24 Max Submatrix <br>
  17.25 Word Rectangle <br>
+ 17.26 Sparse Similarity <br>
