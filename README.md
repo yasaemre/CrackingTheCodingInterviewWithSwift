@@ -104,10 +104,10 @@ TimSort<br>
  17.1 Add Without Plus <br>
  17.2 Shuffle <br>
  17.3 Random Set <br>
- 17.4 Missing Number <br>
+ 
  17.5 Letters and Number <br>
  17.6 Count of 2s <br>
- 17.7 Baby Names <br>
+ 
  17.8 Circus Tower <br>
  17.9 Kth Multiple <br>
  17.10 Majority Element <br>
