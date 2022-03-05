@@ -1,5 +1,9 @@
 import UIKit
-
+/*
+You have an integer and you can flip exactly one bit from a 0 to a 1. Write code to find the length of the longest sequence of 1s you could create.
+EXAMPLE
+Input: 1775 (or: 11011101111) Output: 8
+*/
 func flipBit(_ a:Int) -> Int {
     //if all a 1s, this is already the longest sequence.
     var b = a
