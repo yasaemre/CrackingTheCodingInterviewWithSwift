@@ -104,15 +104,10 @@ TimSort<br>
  17.1 Add Without Plus <br>
  17.2 Shuffle <br>
  17.3 Random Set <br>
- 
  17.5 Letters and Number <br>
  17.6 Count of 2s <br>
- 
- 17.8 Circus Tower <br>
  17.9 Kth Multiple <br>
  17.10 Majority Element <br>
- 17.11 WordDistance <br>
- 17.12 BiNode <br>
  17.13 Re-Space <br>
  17.14 Smallest K <br>
  17.15 Longest Word <br>
