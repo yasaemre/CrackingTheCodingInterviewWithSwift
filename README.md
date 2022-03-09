@@ -110,11 +110,8 @@ TimSort<br>
  17.10 Majority Element <br>
  17.13 Re-Space <br>
  17.14 Smallest K <br>
- 17.15 Longest Word <br>
  17.16 The Masseuse <br>
- 17.17 Multi Search <br>
  17.18 Shortest Supersequence <br>
- 17.19 Missing Two <br>
  17.20 Continuous Median <br>
  17.21 Volume of Histogram <br>
  17.22 Word Transformer <br>
