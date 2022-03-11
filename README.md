@@ -115,5 +115,4 @@ TimSort<br>
  17.20 Continuous Median <br>
  17.21 Volume of Histogram <br>
  17.24 Max Submatrix <br>
- 17.25 Word Rectangle <br>
- 17.26 Sparse Similarity <br>
+
